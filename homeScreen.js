@@ -87,7 +87,7 @@ export default class homeScreen extends React.Component{
                 <TouchableOpacity
                 style={styles.searchButton}
                 onPress={
-                    this.getWord(text)
+                    this.getWord(this.state.text)
                 }>
                     Search
                 </TouchableOpacity>
